@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    width: auto;
+    font-size: 17px;
+}
+.main{
+    border: 4px solid black;
+    margin: 10%;
+    padding: 0;
+}
+/* css for logo block */
+
+.main .logo-block {
+    /* padding: 10px; */
+    margin: auto;
+    align-content: center;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    padding-bottom: 2%;
+    border-bottom: 2px solid gray;
+}
+.main .logo-block .logo-image{
+    align-content: center;
+    padding: 20px;
+}
+.main .logo-block .text-1{
+    font-size: 30px;
+    font-weight: 600;
+    margin: 5px 0;
+}
+.main .logo-block .invoi-main{
+    position: relative;
+    margin: 0%;
+    display: flex;
+    flex-direction: row;
+    
+justify-content: space-between;
+}
+.main .logo-block .invo-sty{
+background-color: rgb(230, 248, 205);
+width: 30%;
+height: auto;
+text-align: center;
+justify-content: space-between;
+border: 1px solid black;
+}
+/* css for company name information */
+.main .comp_nym-block{
+    align-content: center;
+    text-align: center;
+    border-bottom: 2px solid gray;
+    padding-bottom: 20px;
+}
+.main .comp_nym-block .text-2{
+    font-size: 22px;
+    font-weight: 600;
+    margin: 5px 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+.main .comp_nym-block .text-3{
+    padding: 10px
+}
+/* css for shipping address block */
+.main .shipp_addre-block {
+    align-content: center;
+    text-align: center;
+    border-bottom: 2px solid gray;
+}
+.main .shipp_addre-block .text-6{
+    font-size: 22px;
+    font-weight: 600;
+}
+/* css for the table */
+ .main .table-block{
+    margin-top: 20px;
+    align-content: center;
+} 
+.main .table-block .table-layout{
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+.main .table-block .table-layout th{
+    text-align: center;
+    
+}
+.main .table-block .table-layout th, td{
+    border: 1px solid black;
+    padding: 5px;  
+}
+.main .table-block .table-layout td:nth-child(1){
+    border: 0;
+}
+.t-caption{
+    display: table-caption;
+    text-align: left;
+}
+.main .table-block .table-layout #table123 td, tr{
+    border: 0;
+}
+.main .table-block .table-layout #table123, .width-1, .table-record{
+    border: 0;
+    border-collapse: collapse;   
+}
+.main .table-block .total-amount{
+    text-align: right;
+    padding: 15px 0px;
+    border-bottom: 2px solid gray;
+}
+
+/* css for the bank information */
+.bank_info-block{
+    /* margin-bottom: 15px; */
+    padding-bottom: 15px;
+    font-weight: 600;
+    border-bottom: 2px solid gray;
+}
+.bank_info-block .account-number{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.bank_info-block .account-number .left-info{
+    font-weight:300;
+}
+
+/* css for check info block */
+.check-info-block{
+    padding-top: 0px;
+}
+.main .check-info-block .check-text-1{
+    padding-bottom: 25px;
+}
+.main .check-info-block .check-text-2{
+    text-align: center;
+    color: darkgray;
+    font-size: 15px;
+}
