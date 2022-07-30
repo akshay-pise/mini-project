@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+.maxwidth {
+    max-width: 1300px;
+    padding: 0 60px;
+    margin: auto;
+}
+
+/* navbar styling */
+.headerNav {
+    background-color: crimson;
+    /* position: fixed; */
+    width: 100%;
+    padding: 15px 0;
+}
+
+.menu {
+    display: flex;
+}
+
+.headerNav .maxwidth {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo a {
+    color: #fff;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.logo p {
+    padding-left: 1.5rem;
+}
+
+.menu li {
+    list-style: none;
+    display: inline-block;
+}
+
+.menu li a {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 25px;
+}
+
+.menu li :hover {
+    color: #000;
+}
+
+/* css for heading */
+.banner {
+    display: flex;
+    /*
+    width: 100%; */
+    background-color: rgb(253, 199, 199);
+    height: 350px;
+}
+
+.imgleft {
+    float: left;
+    padding: 20px 0;
+    width: 40%;
+}
+
+.header.textRight {
+    width: 40%;
+    padding: 20px 0;
+}
+
+.hedingText {
+    font-size: 2.5rem;
+    padding: 20px 0;
+    margin: 0;
+}
+
+.readMore {
+    margin: 20px 0;
+    padding: 2px;
+    font-size: 14px;
+}
+
+/* css for the body tag */
+.home{
+    padding: 20px 0 30px;
+    background-color: azure;
+}
+.home .maxwidth .homeContent { 
+    display: flex;
+}
+
+.webInfo {
+    width: 70%;
+}
+
+.maxwidth .homeContent .headline {
+    padding: 10px 0;
+    font-size: 26px;
+    border-bottom: 1px solid grey;
+}
+
+.homeContent .headline .mark {
+    padding-bottom: 10px;
+    border-bottom: 3px solid#000;
+}
+
+.homeContent .webInfo p:nth-of-type(2) {
+    font-weight: 600;
+    padding: 10px 0;
+}
+.homeContent .webInfo ul{
+    margin: 30px;
+}
+.homeContent .webInfo ul li::marker {
+    font-size: 20px;
+    color: rgb(45, 46, 46);
+    padding: 20px;
+}
+.homeContent .webInfo p:last-of-type {
+    border-left: 5px solid black;
+    padding: 5px 15px;
+ }
+
+.news {
+    width: 30%;
+    margin: 20px;
+    border-radius: 3px;
+    background-color: gainsboro;
+}
+.newsHeader{
+    background-color: rgb(24, 24, 24);
+    font-size: 16px;
+    border-radius: 3px 3px 0 0;
+    color: #fff;
+    text-align: left;
+    padding: 20px;
+}
+.newsHeader .newsTab .newsCard:nth-of-type(odd){
+    background-color: #ccc;
+}
+.newsImg{
+    padding: 10px;
+}
+.newsCard{
+    display: flex;
+    margin: 20px 10px;
+    font-size: 14px;
+}
+.newsInfo{
+    padding: 5px;
+}
+.newsDate{
+font-family: 'Oxygen', sans-serif;
+}
+.newsHeadline{
+    font-weight: 600;
+}
