@@ -1,4 +1,4 @@
-simple web page
--create simpmle web page
+web page
+-create web page
 -creating navigation bar
 -creating grid using css
